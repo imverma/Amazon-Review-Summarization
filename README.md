@@ -1,15 +1,5 @@
 # Analytics on Amazon Reviews
 
-Data Analytics exam final project, [MSc in Computer Science](https://github.com/avivace/compsci).
-
-By [Matteo Coppola](https://github.com/matteocoppola), [Luca Palazzi](https://github.com/lucapalazzi), [Antonio Vivace](https://github.com/avivace).
-
-> Exploration, Sentiment Analysis, Topic Analysis (LDA) and a VueJS web application exposing the trained models.
-
-[GO. PLAY. WITH THE PLOTS.](https://avivace.github.io/reviews-sentiment) (web demo deployment)
-
-[Documentation](report.pdf)
-
 
 #### Exploration
 
