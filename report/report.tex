@@ -1,0 +1,59 @@
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{ dsfont }
+\usepackage{ svg }
+
+\usepackage[colorlinks,citecolor=black,linkcolor=black,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{titling}
+\usepackage{float}
+\usepackage{textcomp}
+\setlength\parindent{0pt}
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=ynt
+]{biblatex}
+
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\title{%
+  \Huge Amazon Reviews \\
+  \large Sentiment and Aspect Based Analysis\\
+    }
+\author{
+  Coppola Matteo\\
+  \texttt{793329}
+  \and
+  Palazzi Luca\\
+  \texttt{793556}
+   \and
+  Vivace Antonio\\
+  \texttt{793509}
+}
+\date{Data Analytics, January 2020}
+\maketitle
+
+\input{abstract.tex}
+\tableofcontents
+\listoffigures
+\listoftables
+\pagebreak
+%%
+\input{1_introduction.tex}
+\input{2_esplorazione.tex}
+\input{3_sentiment_analysis.tex}
+\input{4_topic_analysis.tex}
+\input{5_conclusioni.tex}
+
+\newpage
+\addcontentsline{toc}{chapter}{Bibliografia}
+\printbibliography
+
+\end{document}
