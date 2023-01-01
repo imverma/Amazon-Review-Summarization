@@ -1,12 +1,6 @@
 # Analytics on Amazon Reviews
 
 
-#### Exploration
-
-<img src="figures/1_rew_len_over_time.svg" width="50%"><img src="figures/1_avg_help_25_100_traffic.svg"  width="50%">
-
-<img src="figures/1_ver_unver_time_traffic.svg"  width="50%"><img src="figures/1_correlation_words_opinion.svg"  width="50%">
-
 #### Web demo
 
 <img src="https://github.com/avivace/reviews-sentiment/blob/develop/figures/ext/webapp1.png">
